@@ -2,7 +2,7 @@
 
 import binascii
 
-with open('four.txt', 'r') as f:
+with open('../data.four.txt', 'r') as f:
     for line in f:
         hex_string = line.strip()
         byte_string = bytes.fromhex(hex_string)  # convert hex string to byte string
